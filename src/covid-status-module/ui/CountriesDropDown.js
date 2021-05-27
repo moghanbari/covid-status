@@ -14,7 +14,7 @@ const CountriesDropDown = ({ countries, countryChange }) => {
   return (
     <>
       <div className='grid md:grid-cols-1'>
-        <div className='shadow-md p-10 text-center rounded mb-3 mt-3'>
+        <div className='shadow-md p-10 xs:p-5 text-center rounded mb-3 mt-3'>
           <span>Status For: </span>
           <select className='pl-3 pt-2 pb-2 border rounded' onChange={handleCountryChange}>
             <option value={0}>World Wide</option>

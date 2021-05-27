@@ -4,7 +4,7 @@ import Header from 'shared-modules/layouts/Header'
 function App({ children }) {
   return (
     <Router>
-      <div className='container mx-auto max-w-lg'>
+      <div className='container mx-auto max-w-lg xs:p-5'>
         <Header />
         {children}
       </div>
